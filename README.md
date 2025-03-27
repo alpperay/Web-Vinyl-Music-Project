@@ -52,7 +52,7 @@ Vinyl Echo, kullanıcıların şarkıları keşfedebileceği, favori plakların�
 
 - Modern ve kullanıcı dostu bir tasarıma sahiptir.
 
-Nasıl Kullanılır?
+**Nasıl Kullanılır?**
 
 1. Kullanıcılar ana sayfada şarkıları görüntüleyebilir.
 
