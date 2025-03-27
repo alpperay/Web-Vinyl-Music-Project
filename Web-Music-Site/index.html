@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web | Müzik Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body id="bdy">
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <h2>Vinyl Echo</h2>
+            </a>
+        </div>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="turkcesarkilar.html">Türkçe Şarkılar</a></li>
+            <li><a href="yabancisarkilar.html">Yabancı Şarkılar</a></li>
+            <div class="buton-container">
+                <button class="auth-container">
+                    <a href="girisyap.html">Giriş Yap</a>
+                </button>
+                <button class="auth-container">
+                    <a href="kayıtol.html">Kayıt Ol</a>
+                </button>
+            </div>
+        </ul>
+        <div class="buton-icon">
+            <button class="icon-container" id="theme-switch" onclick="karanlıkModaGec()"><i
+                    class="fas fa-moon icon"></i></button>
+            <button class="icon-container" id="theme-switch" onclick="aydınlıkModaGec()"><i
+                    class="fas fa-sun icon"></i></button>
+            </button>
+        </div>
+    </nav>
+
+    <div class="main">
+        <h2 class="main-header">Müziğin Sesinde Keşfe Çıkın!</h2>
+        <p class="main-subheading">
+            Bu platformda her nota, her şarkı, her ritim senin için! <br> Keşfet, dinle, hisset ve müziğin büyüsüne
+            kapıl! 🎶
+        </p>
+        <img src="./images/icons/main-bg.jpeg" alt="">
+    </div>
+
+    <div class="section">
+        <h4 class="section-header">Anında haberdar ol!</h4>
+        <p>
+            Yeni çıkan plakları kaçırmak istemezseniz abone olmak için aşağıdan e-posta adresinizi girip devam
+            edebilirsiniz.
+        </p>
+        <input class="section-input" type="email" name="e-posta" id="e-posta" placeholder="E-posta adresinizi giriniz!"
+            required>
+        <button class="section-button">Abone Ol</button>
+    </div>
+
+    <footer>
+        <div class="menu">
+            <h4>Hızlı Menü</h4>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="turkcesarkilar.html">Türkçe Şarkılar</a></li>
+            <li><a href="yabancisarkilar.html">Yabancı Şarkılar</a></li>
+        </div>
+
+        <div class="contacts">
+            <h4>İletişime Geçin!</h4>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:alperaytasci@gmail.com">alperaytasci@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/alperaytasci" target="_blank">LinkedIn</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/alperaytasci" target="_blank">Instagram</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/alpperay" target="_blank">GitHub</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-twitter"></i>
+                <a href="https://twitter.com/alperaytasci" target="_blank">Twitter</a>
+            </div>
+    </footer>
+    <div class="license-text">
+        <hr>
+        <h3>2025 Alp Eray Taşçı &copy; Tüm Hakları Saklıdır.</h3>
+    </div>
+    </div>
+
+    <a href="#" class="go-up"><i class="fas fa-arrow-up"></i></a>
+
+
+
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var yukari = document.querySelector(".go-up");
+
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 300) {
+                yukari.classList.add("show");
+            } else {
+                yukari.classList.remove("show");
+            }
+        });
+
+        yukari.addEventListener("click", function (e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    }); 
+</script>
+
+</html>

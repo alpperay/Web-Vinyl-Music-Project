@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body id="bdy">
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <h2>Vinyl Echo</h2>
+            </a>
+        </div>
+        <div class="buton-icon">
+
+            <button class="icon-container" onclick="karanlıkModaGec()">
+                <i class="fas fa-moon icon"></i>
+            </button>
+
+            <button class="icon-container" onclick="aydınlıkModaGec()">
+                <i class="fas fa-sun icon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="info-box">
+            <span class="span"></span>
+        </div>
+        <div class="form-box">
+            <form action="#">
+                <label for="e-posta">E-posta</label>
+                <br><br>
+                <input type="email" name="e-posta" id="e-posta" required placeholder="E-posta Giriniz!">
+                <br><br>
+                <label for="sifre">Şifre</label>
+                <br><br>
+                <input type="password" name="sifre" id="sifre" required placeholder="**********">
+                <br><br>
+                <input type="submit" value="Giriş Yap">
+                <br><br>
+                <div class="inline-box">
+                    <div class="box">
+                        <img src="./images/icons/google.png">
+                            <a href="#" class="box-button" style="margin-right: 30px;">Google ile devam edin!</a>
+                    </div>
+                    <div class="inline-box">
+                        <div class="box">
+                            <img src="./images/icons/log-in.png">
+                            <a href="kayıtol.html" class="box-button">Kayıtlı değil misin? Kayıt Ol!</a>
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

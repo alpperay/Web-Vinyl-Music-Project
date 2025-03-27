@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body id="bdy">
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <h2>Vinyl Echo</h2>
+            </a>
+        </div>
+        <div class="buton-icon">
+
+            <button class="icon-container" onclick="karanlıkModaGec()">
+                <i class="fas fa-moon icon"></i>
+            </button>
+
+            <button class="icon-container" onclick="aydınlıkModaGec()">
+                <i class="fas fa-sun icon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="info-box">
+            <span class="span"></span>
+        </div>
+        <div class="form-box">
+            <form action="#">
+                <label for="ad">Adınızı Giriniz</label>
+                <br><br>
+                <input type="text" name="ad" id="ad" placeholder="Adınızı Giriniz!" required>
+                <br><br>
+                <label for="soyad">Soyadınızı Giriniz</label>
+                <br><br>
+                <input type="text" name="soyad" id="soyad" placeholder="Soyadınızı Giriniz!" required>
+                <label for="e-posta">E-posta</label>
+                <br><br>
+                <input type="email" name="e-posta" id="e-posta" required placeholder="E-posta Giriniz!">
+                <br><br>
+                <label for="sifre">Şifre</label>
+                <br><br>
+                <input type="password" name="sifre" id="sifre" required placeholder="**********">
+                <br><br>
+                <label for="sifre onayla">Şifre (Onayla)</label>
+                <br><br>
+                <input type="password" name="sifre onayla" id="sifre onayla" required placeholder="**********">
+                <input type="submit" value="Giriş Yap" style="margin-top: 20px;">
+                <br><br>
+                <h3>Hesabın zaten var mı? <a href="girisyap.html" style="color: blue;">Giriş Yap!</a></h3>
+                </div>
+            </form>
+        </div>
+    </div>
+    <a href="#" class="go-up"><i class="fas fa-arrow-up"></i></a>
+
+</body>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+                var yukari = document.querySelector(".go-up");
+
+                window.addEventListener("scroll", function () {
+                    if (window.scrollY > 200) {
+                        yukari.classList.add("show");
+                    } else {
+                        yukari.classList.remove("show");
+                    }
+                });
+
+                yukari.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                });
+            });
+    </script>
+
+</html>
