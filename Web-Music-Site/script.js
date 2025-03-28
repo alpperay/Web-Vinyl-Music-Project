@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Sayfa yüklendiğinde localStorage'dan temayı kontrol et
   const currentTheme = localStorage.getItem("theme");
   if (currentTheme === "dark") {
     karanlıkModaGec();
@@ -12,7 +11,6 @@ function karanlıkModaGec() {
   document.getElementById("bdy").style.backgroundColor = "#131010";
   document.getElementById("bdy").style.color = "#493b61";
   document.getElementById("bdy").style.borderColor = "darkgrey";
-  // Seçimi localStorage'a kaydet
   localStorage.setItem("theme", "dark");
 }
 
