@@ -136,7 +136,8 @@ Görseller Klasörü:
 
 ```
 ├── index.html          
-├── sepet.html  
+├── sepet.html
+├── hakkimizda.html  
 ├── kayıtol.html          
 ├── girisyap.html        
 ├── style.css              
@@ -193,6 +194,10 @@ Projenin HTML dosyalarını, herhangi bir tarayıcıda açarak kullanabilirsiniz
 - **Ödeme entegrasyonu** (Stripe veya PayPal ile ödeme işlemleri).
 - Kullanıcıların satın alma geçmişini görüntüleyebileceği bir **profil sayfası**.
 - **Gelişmiş filtreleme ve arama özellikleri** ile müzikleri daha hızlı bulma imkanı.
+
+## Geliştirici & Yazar
+
+** Alp Eray Taşçı
 
 ## Lisans
 
