@@ -201,7 +201,7 @@ Projenin HTML dosyalarını, herhangi bir tarayıcıda açarak kullanabilirsiniz
 
 ## Geliştirici & Yazar
 
-** Alp Eray Taşçı
+**Alp Eray Taşçı**
 
 ## Lisans
 
