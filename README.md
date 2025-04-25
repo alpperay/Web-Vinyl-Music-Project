@@ -1,4 +1,4 @@
-![sepet](https://github.com/user-attachments/assets/282142fb-50b4-43ad-bd6d-f134a8f37688)# Vinyl Echo | Web E-Ticaret Projesi
+# Vinyl Echo | Web E-Ticaret Projesi
 
 Vinyl Echo, kullanıcıların şarkıları keşfedebileceği, favori plaklarını sepete ekleyebileceği ve hesap oluşturup giriş yapabileceği bir müzik ve e-ticaret sitesidir. Kullanıcılar, siteyi karanlık ve aydınlık modda kullanabilir ve istedikleri şarkıları sepetlerine ekleyerek alışveriş yapabilirler.
 
