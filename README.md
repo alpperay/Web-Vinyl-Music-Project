@@ -1,4 +1,4 @@
-# Vinyl Echo | Web E-Ticaret Projesi
+![sepet](https://github.com/user-attachments/assets/282142fb-50b4-43ad-bd6d-f134a8f37688)# Vinyl Echo | Web E-Ticaret Projesi
 
 Vinyl Echo, kullanıcıların şarkıları keşfedebileceği, favori plaklarını sepete ekleyebileceği ve hesap oluşturup giriş yapabileceği bir müzik ve e-ticaret sitesidir. Kullanıcılar, siteyi karanlık ve aydınlık modda kullanabilir ve istedikleri şarkıları sepetlerine ekleyerek alışveriş yapabilirler.
 
@@ -131,6 +131,10 @@ Görseller Klasörü:
 **Yabancı Şarkılar V2**
 
 ![yabanci-sarkilar sc2](https://github.com/user-attachments/assets/194a16e8-fa56-4e88-a7a7-fa79e24721c4)
+
+**Sepet Sayfası**
+
+![sepet](https://github.com/user-attachments/assets/12f39226-9423-4018-b512-ffeca22e22bb)
 
 ## Dosya Yapısı
 
