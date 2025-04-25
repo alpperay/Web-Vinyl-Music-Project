@@ -166,6 +166,7 @@ form label {
   color: #555;
   display: block;
   text-align: left;
+  margin-top: 10px;
 }
 
 form input[type="email"] {
@@ -240,6 +241,10 @@ form input[type="submit"] {
   font-size: 18px;
   border-radius: 8px;
   transition: 0.3s;
+}
+
+form input[type="submit"]:hover{
+  box-shadow: 0 0 10px rgb(21, 217, 224);
 }
 
 .box {
@@ -560,13 +565,13 @@ footer .menu li a:hover {
 }
 
 .sepet-container .sepet-buton i {
-  color: goldenrod;
+  color: blue;
 }
 
 .sepet-container .sepet-buton:hover {
   transform: scale(1.1);
-  background-color: #25e;
-  border: 1px solid #25e;
+  background-color: rgb(21, 217, 224);
+  border: 1px solid rgb(21, 217, 224);
   color: white;
 }
 
